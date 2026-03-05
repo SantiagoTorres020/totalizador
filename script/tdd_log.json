@@ -94,9 +94,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2714ad1edea7f17405ca5c9ed1c22c322e3ea52e",
     "commitName": "feat:Mostrar el porcentaje de impuesto que tiene un estado",
     "commitTimestamp": 1772718887974,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se añadió UI",
+    "commitTimestamp": 1772719431262,
+    "testId": 2
   }
 ]

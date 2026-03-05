@@ -1,15 +1,29 @@
-import sumar from "./sumador";
+import { cantItem,precioItem,precioNeto,impuestoEstado } from "./totalizador.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const form = document.querySelector("#totalizar-form");
+
+const txtCantidad = document.querySelector("#txtCantidad");
+const txtPrecio = document.querySelector("#txtPrecio");
+const txtEstado = document.querySelector("#txtEstado");
+
+const resultado = document.querySelector("#resultado");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const cantidad = Number(txtCantidad.value);
+  const precio = Number(txtPrecio.value);
+  const estado = txtEstado.value.trim().toUpperCase();
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  const cant = cantItem(cantidad);
+  const prec = precioItem(precio);
+  const neto = precioNeto(cantidad, precio);
+  const impuesto = impuestoEstado(estado);
+
+  resultado.innerHTML =
+    "<p>Cantidad de items: " + cant + "</p>" +
+    "<p>Precio por item: " + prec + "</p>" +
+    "<p>Codigo de estado: " + estado + "</p>" +
+    "<p>Precio neto: " + neto + "</p>" +
+    "<p>Impuesto para " + estado + ": " + impuesto + "%</p>";
 });

@@ -22,6 +22,7 @@ export function impuestoEstado(estado){
     }else if(estado == "CA"){
         return 8.25;
     }
+    return 0;
 }
 
 export function calcularPrecioImpuesto(estado,cantidad,precio){
