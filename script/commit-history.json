@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "0822d03fa3364c71fe62545c6241616dc5ccbf4b",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-05T13:41:37.000Z",
       "message": "feat: mostrar precio por item y precio neto",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/0822d03fa3364c71fe62545c6241616dc5ccbf4b"
     },
     "stats": {
       "total": 26,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-05T13:54:45.000Z",
+      "message": "feat:Mostrar el porcentaje de impuesto que tiene un estado",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 57.14,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

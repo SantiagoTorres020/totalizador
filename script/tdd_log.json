@@ -56,9 +56,47 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0822d03fa3364c71fe62545c6241616dc5ccbf4b",
     "commitName": "feat: mostrar precio por item y precio neto",
     "commitTimestamp": 1772718099987,
     "testId": 0
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1772718427333,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1772718517612,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1772718531007,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1772718581471,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:Mostrar el porcentaje de impuesto que tiene un estado",
+    "commitTimestamp": 1772718887974,
+    "testId": 1
   }
 ]
