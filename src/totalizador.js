@@ -25,10 +25,15 @@ export function impuestoEstado(estado){
     return 0;
 }
 
-export function calcularPrecioImpuesto(estado,cantidad,precio){
+export function calcularImpuesto(neto, impuesto){
+    return neto * (impuesto / 100);
+}
+
+export function calcularPrecioConImpuesto(estado,cantidad,precio){
     const neto = precioNeto(cantidad,precio);
     const impuesto = impuestoEstado(estado);
-    const montoImpuesto = neto * (impuesto / 100);
+
+    const montoImpuesto = calcularImpuesto(neto, impuesto);
 
     return neto + montoImpuesto;
 }

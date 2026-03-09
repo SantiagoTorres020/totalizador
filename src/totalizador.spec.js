@@ -1,4 +1,4 @@
-import { calcularPrecioImpuesto, cantItem } from "./totalizador.js";
+import { calcularPrecioCantProductos, calcularPrecioConImpuesto, cantItem } from "./totalizador.js";
 import { precioItem } from "./totalizador.js";
 import { precioNeto } from "./totalizador.js";
 import { impuestoEstado } from "./totalizador.js";
@@ -23,26 +23,33 @@ describe("Totalizador", () => {
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA", () => {
         let estado = "CA";
-        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(16.2375);
+        expect(calcularPrecioConImpuesto(estado,5,3)).toEqual(16.2375);
     });
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de AL", () => {
         let estado = "AL";
-        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(15.6);
+        expect(calcularPrecioConImpuesto(estado,5,3)).toEqual(15.6);
     });
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de NV", () => {
         let estado = "NV";
-        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(16.2);
+        expect(calcularPrecioConImpuesto(estado,5,3)).toEqual(16.2);
     });
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT", () => {
         let estado = "UT";
-        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(15.9975);
+        expect(calcularPrecioConImpuesto(estado,5,3)).toEqual(15.9975);
     });
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX", () => {
         let estado = "TX";
-        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(15.9375);
+        expect(calcularPrecioConImpuesto(estado,5,3)).toEqual(15.9375);
     });
+
+    /*
+    it("Mostrar el precio total con el Porcentaje de descuento que corresponde a 1000" , () => {
+        let cantidad = 1000;
+        expect(calcularPrecioCantProductos(1000)).toEqual(3030);
+    });
+    */
 });

@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ba7b79dcdf762f827bd0020ec2e5237dbf925db3",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-09T03:12:35.000Z",
       "message": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/ba7b79dcdf762f827bd0020ec2e5237dbf925db3"
     },
     "stats": {
       "total": 5,
@@ -147,6 +147,25 @@
       "date": "2026-03-09"
     },
     "coverage": 94.74,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-09T19:29:44.000Z",
+      "message": "refactor: separar cálculo de impuesto y precio total en funciones distintas",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 26,
+      "deletions": 13,
+      "date": "2026-03-09"
+    },
+    "coverage": 95,
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"

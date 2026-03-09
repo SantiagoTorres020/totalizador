@@ -178,9 +178,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ba7b79dcdf762f827bd0020ec2e5237dbf925db3",
     "commitName": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
     "commitTimestamp": 1773025957834,
     "testId": 7
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1773084272849,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1773084291578,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: separar cálculo de impuesto y precio total en funciones distintas",
+    "commitTimestamp": 1773084585177,
+    "testId": 8
   }
 ]
