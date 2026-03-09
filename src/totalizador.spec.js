@@ -35,4 +35,9 @@ describe("Totalizador", () => {
         let estado = "NV";
         expect(calcularPrecioImpuesto(estado,5,3)).toEqual(16.2);
     });
+
+    it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT", () => {
+        let estado = "UT";
+        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(15.9975);
+    });
 });
