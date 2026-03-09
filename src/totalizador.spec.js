@@ -25,4 +25,9 @@ describe("Totalizador", () => {
         let estado = "CA";
         expect(calcularPrecioImpuesto(estado,5,3)).toEqual(16.2375);
     });
+
+    it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de AL", () => {
+        let estado = "AL";
+        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(15.6);
+    });
 });
