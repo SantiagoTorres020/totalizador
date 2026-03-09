@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7822fcc6396a9670b396d9fcec9afa6b69244f42",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-09T03:11:25.000Z",
       "message": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/7822fcc6396a9670b396d9fcec9afa6b69244f42"
     },
     "stats": {
       "total": 5,
@@ -129,6 +129,25 @@
     },
     "coverage": 94.74,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-09T03:12:35.000Z",
+      "message": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 94.74,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

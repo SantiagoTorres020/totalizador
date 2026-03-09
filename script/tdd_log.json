@@ -164,9 +164,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7822fcc6396a9670b396d9fcec9afa6b69244f42",
     "commitName": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT",
     "commitTimestamp": 1773025887175,
     "testId": 6
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1773025941683,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
+    "commitTimestamp": 1773025957834,
+    "testId": 7
   }
 ]
