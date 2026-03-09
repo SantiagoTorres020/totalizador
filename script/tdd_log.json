@@ -100,9 +100,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4dcba874da8571eef4cf4f52973ceb07ea3752fa",
     "commitName": "feat: Se añadió UI",
     "commitTimestamp": 1772719431262,
     "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772720025006,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772720086937,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+    "commitTimestamp": 1773024585973,
+    "testId": 3
   }
 ]

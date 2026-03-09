@@ -6,8 +6,8 @@ export function precioItem(precio){
     return precio;
 }
 
-export function precioNeto(cant,precio){
-    return cantItem(cant)*precioItem(precio);
+export function precioNeto(cantidad,precio){
+    return cantItem(cantidad)*precioItem(precio);
 }
 
 export function impuestoEstado(estado){
@@ -26,5 +26,9 @@ export function impuestoEstado(estado){
 }
 
 export function calcularPrecioImpuesto(estado,cantidad,precio){
+    const neto = precioNeto(cantidad,precio);
+    const impuesto = impuestoEstado(estado);
+    const montoImpuesto = neto * (impuesto / 100);
 
+    return neto + montoImpuesto;
 }

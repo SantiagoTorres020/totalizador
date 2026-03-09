@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4dcba874da8571eef4cf4f52973ceb07ea3752fa",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-05T14:03:49.000Z",
       "message": "feat: Se añadió UI",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/4dcba874da8571eef4cf4f52973ceb07ea3752fa"
     },
     "stats": {
       "total": 64,
@@ -52,6 +52,25 @@
       "date": "2026-03-05"
     },
     "coverage": 53.33,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-09T02:49:43.000Z",
+      "message": "Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 13,
+      "deletions": 7,
+      "date": "2026-03-09"
+    },
+    "coverage": 78.95,
     "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"

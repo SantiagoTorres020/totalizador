@@ -1,4 +1,4 @@
-import { cantItem } from "./totalizador.js";
+import { calcularPrecioImpuesto, cantItem } from "./totalizador.js";
 import { precioItem } from "./totalizador.js";
 import { precioNeto } from "./totalizador.js";
 import { impuestoEstado } from "./totalizador.js";
@@ -22,7 +22,7 @@ describe("Totalizador", () => {
     });
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA", () => {
-        let estado = "TX";
-        expect(impuestoEstado(estado)).toEqual(6.25);
+        let estado = "CA";
+        expect(calcularPrecioImpuesto(estado,5,3)).toEqual(16.2375);
     });
 });
