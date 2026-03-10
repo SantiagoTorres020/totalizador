@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <title>Totalizador</title>
-  </head>
-  <body>
+</head>
+<body>
     <h1>Totalizador</h1>
 
     <form id="totalizar-form">
@@ -16,11 +16,33 @@
 
         <p>Codigo de estado:</p>
         <select id="txtEstado">
-            <option value="CA" selected>California (CA)</option>
-            <option value="UT">Utah (UT)</option>
-            <option value="NV">Nevada (NV)</option>
-            <option value="TX">Texas (TX)</option>
-            <option value="AL">Alabama (AL)</option>
+            <option value="CA" selected>CA</option>
+            <option value="UT">UT</option>
+            <option value="NV">NV</option>
+            <option value="TX">TX</option>
+            <option value="AL">AL</option>
+        </select>
+
+        <p>Categoria de producto:</p>
+        <select id="txtCategoria">
+            <option value="Varios" selected>Varios</option>
+            <option value="Alimentos">Alimentos</option>
+            <option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
+            <option value="Material de escritorio">Material de escritorio</option>
+            <option value="Muebles">Muebles</option>
+            <option value="Electrónicos">Electrónicos</option>
+            <option value="Vestimenta">Vestimenta</option>
+        </select>
+
+        <p>Peso volumétrico por unidad:</p>
+        <input type="number" id="txtPesoVolumetrico" />
+
+        <p>Tipo de cliente:</p>
+        <select id="txtTipoCliente">
+            <option value="Normal" selected>Normal</option>
+            <option value="Recurrente">Recurrente</option>
+            <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+            <option value="Especial">Especial</option>
         </select>
 
         <br /><br />
@@ -30,5 +52,5 @@
     <div id="resultado"></div>
 
     <script type="module" src="./src/presenter.js"></script>
-  </body>
+</body>
 </html>

@@ -760,17 +760,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "636dca5143b3780998af80befc491dc3d01b49a0",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:20:59.000Z",
       "message": "feat: Integrar descuento fijo por tipo de cliente en el calculo del precio total",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/636dca5143b3780998af80befc491dc3d01b49a0"
     },
     "stats": {
       "total": 9,
       "additions": 8,
       "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.3,
+    "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:35:32.000Z",
+      "message": "feat: ui integrado con las nuevas funcionalidades",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 160,
+      "additions": 126,
+      "deletions": 34,
       "date": "2026-03-10"
     },
     "coverage": 96.3,

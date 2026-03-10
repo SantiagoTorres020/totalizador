@@ -664,9 +664,15 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "636dca5143b3780998af80befc491dc3d01b49a0",
     "commitName": "feat: Integrar descuento fijo por tipo de cliente en el calculo del precio total",
     "commitTimestamp": 1773127260770,
     "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ui integrado con las nuevas funcionalidades",
+    "commitTimestamp": 1773128133857,
+    "testId": 41
   }
 ]
