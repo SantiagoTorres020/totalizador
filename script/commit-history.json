@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "88ffe001a9c91bc8bea0b0bd435e8dfb3781a3ea",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:16:07.000Z",
       "message": "feat: Agregar descuento fijo para cliente Recurrente en categoria Alimentos",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/88ffe001a9c91bc8bea0b0bd435e8dfb3781a3ea"
     },
     "stats": {
       "total": 12,
@@ -720,5 +720,24 @@
     "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:16:50.000Z",
+      "message": "feat: Agregar descuento fijo para cliente Especial en categoria Electrónicos",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.33,
+    "test_count": 48,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

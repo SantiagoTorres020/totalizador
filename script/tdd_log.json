@@ -614,9 +614,15 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "88ffe001a9c91bc8bea0b0bd435e8dfb3781a3ea",
     "commitName": "feat: Agregar descuento fijo para cliente Recurrente en categoria Alimentos",
     "commitTimestamp": 1773126969139,
     "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar descuento fijo para cliente Especial en categoria Electrónicos",
+    "commitTimestamp": 1773127012000,
+    "testId": 38
   }
 ]
