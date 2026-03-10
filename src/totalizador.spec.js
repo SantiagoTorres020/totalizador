@@ -195,4 +195,10 @@ describe("Totalizador", () => {
     it("Deberia calcular el costo final de envio con descuento por tipo de cliente", () => {
         expect(costoEnvioFinal("Especial", 2, 15)).toEqual(6.895);
     });
+
+    it("Deberia calcular el precio total incluyendo envio y descuento por tipo de cliente", () => {
+        expect(
+            calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Varios", 15, "Especial")
+        ).toEqual(223.395);
+    });
 });

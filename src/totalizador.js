@@ -60,7 +60,7 @@ export function calcularDescuento(neto, porcentajeDescuento){
     return neto * (porcentajeDescuento / 100);
 }
 
-export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, categoria, pesoVolumetrico) {
+export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, categoria, pesoVolumetrico, tipoCliente) {
     const neto = precioNeto(cantidad, precio);
 
     const impuestoBase = impuestoEstado(estado);
@@ -73,9 +73,9 @@ export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, ca
     const descuentoTotal = descuentoBase + descuentoCategoria;
     const montoDescuento = calcularDescuento(neto, descuentoTotal);
 
-    const envioTotal = costoEnvioTotal(cantidad, pesoVolumetrico);
+    const envioFinal = costoEnvioFinal(tipoCliente, cantidad, pesoVolumetrico);
 
-    return neto + montoImpuesto - montoDescuento + envioTotal;
+    return neto + montoImpuesto - montoDescuento + envioFinal;
 }
 
 export function impuestoAdicionalPorCategoria(categoria) {

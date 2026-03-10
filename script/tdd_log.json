@@ -586,9 +586,23 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98c02f9b91f38a85692b26236d3d3ad744a55545",
     "commitName": "feat: implementar costo final de envio con descuento por tipo de cliente",
     "commitTimestamp": 1773126457239,
     "testId": 35
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1773126674944,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implemento el calcular el precio total incluyendo envio y descuento por tipo de cliente",
+    "commitTimestamp": 1773126708249,
+    "testId": 36
   }
 ]
