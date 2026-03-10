@@ -532,17 +532,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "932e512716e837e1f5463039b2630296b3fe011d",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:54:25.000Z",
       "message": "feat: se implemento calculo del costo total de envio segun cantidad y peso volumetrico",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/932e512716e837e1f5463039b2630296b3fe011d"
     },
     "stats": {
       "total": 12,
       "additions": 8,
       "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.56,
+    "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:55:28.000Z",
+      "message": "fix: el anterior commit se repitio en realidad era la implementacion de calcular el precio total incluyendo costo de envio",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
       "date": "2026-03-10"
     },
     "coverage": 95.56,

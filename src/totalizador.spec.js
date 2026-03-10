@@ -169,4 +169,6 @@ describe("Totalizador", () => {
     it("Deberia calcular el precio total incluyendo costo de envio", () => {
         expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Varios", 15)).toEqual(223.5);
     });
+
+
 });

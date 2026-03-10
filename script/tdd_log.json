@@ -536,9 +536,15 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "932e512716e837e1f5463039b2630296b3fe011d",
     "commitName": "feat: se implemento calculo del costo total de envio segun cantidad y peso volumetrico",
     "commitTimestamp": 1773125666613,
     "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: el anterior commit se repitio en realidad era la implementacion de calcular el precio total incluyendo costo de envio",
+    "commitTimestamp": 1773125730544,
+    "testId": 29
   }
 ]
