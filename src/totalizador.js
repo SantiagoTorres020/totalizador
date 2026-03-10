@@ -72,5 +72,8 @@ export function impuestoAdicionalPorCategoria(categoria) {
     if (categoria == "Varios") {
         return 0;
     }
+    else if (categoria = "Alimentos") {
+        return 0;
+    }
     return 0;
 }

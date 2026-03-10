@@ -91,4 +91,7 @@ describe("Totalizador", () => {
         expect(impuestoAdicionalPorCategoria("Varios")).toEqual(0);
     });
 
+    it("Deberia devolver 0 de impuesto adicional para la categoria Alimentos", () => {
+        expect(impuestoAdicionalPorCategoria("Alimentos")).toEqual(0);
+    });
 });
