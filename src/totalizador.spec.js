@@ -174,4 +174,8 @@ describe("Totalizador", () => {
     it("Deberia devolver 0 de descuento en envio para cliente Normal", () => {
         expect(descuentoEnvioCliente("Normal")).toEqual(0);
     });
+
+    it("Deberia devolver 0.5 de descuento en envio para cliente Recurrente", () => {
+        expect(descuentoEnvioCliente("Recurrente")).toEqual(0.5);
+    });
 });

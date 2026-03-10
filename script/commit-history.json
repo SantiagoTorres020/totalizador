@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "97e9ab772dc16f514994d08139acb9d77caaa124",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:59:45.000Z",
       "message": "feat: implementar descuento de envio para el cliente normal",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/97e9ab772dc16f514994d08139acb9d77caaa124"
     },
     "stats": {
       "total": 12,
@@ -585,6 +585,25 @@
     },
     "coverage": 94.62,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:01:00.000Z",
+      "message": "feat: implementar descuento de envio para el cliente recurrente",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.74,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }

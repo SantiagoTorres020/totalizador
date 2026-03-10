@@ -162,5 +162,8 @@ export function descuentoEnvioCliente(tipoCliente) {
     if (tipoCliente == "Normal") {
         return 0;
     }
+    else if (tipoCliente == "Recurrente") {
+        return 0.5;
+    }
     return 0;
 }
