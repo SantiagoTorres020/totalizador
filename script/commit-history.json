@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "71aefe74289f508ce585dd767a40fc2f9f43844b",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:09:36.000Z",
       "message": "feat: test para calcular el precio total con impuesto adicional por categoria",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/71aefe74289f508ce585dd767a40fc2f9f43844b"
     },
     "stats": {
       "total": 26,
@@ -319,6 +319,25 @@
     },
     "coverage": 98.18,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:30:10.000Z",
+      "message": "feat: se implemento el descuento adicional para la categoria alimentos",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.55,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

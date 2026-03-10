@@ -368,9 +368,39 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "71aefe74289f508ce585dd767a40fc2f9f43844b",
     "commitName": "feat: test para calcular el precio total con impuesto adicional por categoria",
     "commitTimestamp": 1773122977681,
     "testId": 16
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1773124044190,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1773124145502,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1773124183301,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implemento el descuento adicional para la categoria alimentos",
+    "commitTimestamp": 1773124212143,
+    "testId": 17
   }
 ]

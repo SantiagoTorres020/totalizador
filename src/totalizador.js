@@ -99,3 +99,10 @@ export function impuestoAdicionalPorCategoria(categoria) {
     }
     return 0;
 }
+
+export function descuentoAdicionalPorCategoria(categoria) {
+    if (categoria == "Alimentos") {
+        return 2;
+    }
+    return 0;
+}

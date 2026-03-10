@@ -8,6 +8,8 @@ import { descuento } from "./totalizador.js";
 import { calcularDescuento } from "./totalizador.js";
 import { calcularPrecioConImpuestoYDescuento } from "./totalizador.js";
 import { impuestoAdicionalPorCategoria } from "./totalizador.js";
+import { descuentoAdicionalPorCategoria } from "./totalizador.js";
+
 
 describe("Totalizador", () => {
     it("mostrar cantidad de items", () => {
@@ -118,5 +120,9 @@ describe("Totalizador", () => {
 
     it("Deberia calcular el precio total con impuesto de estado e impuesto adicional por categoria", () => {
         expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Electronicos")).toEqual(224.5);
+    });
+
+    it("Deberia devolver 2 de descuento adicional para la categoria Alimentos", () => {
+        expect(descuentoAdicionalPorCategoria("Alimentos")).toEqual(2);
     });
 });
