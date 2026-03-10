@@ -254,9 +254,15 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1a4846cb01069277c8441b42da39319317c7d352",
     "commitName": "feat: se implementó las funciones descuento, calcularDescuento y calcularPrecioConImpuestoYDescuento",
     "commitTimestamp": 1773102694690,
     "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: se agregó casos de prueba para cálculo de precio con impuesto y descuento por rangos",
+    "commitTimestamp": 1773103047068,
+    "testId": 10
   }
 ]

@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1a4846cb01069277c8441b42da39319317c7d352",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-10T00:31:32.000Z",
       "message": "feat: se implementó las funciones descuento, calcularDescuento y calcularPrecioConImpuestoYDescuento",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/1a4846cb01069277c8441b42da39319317c7d352"
     },
     "stats": {
       "total": 52,
@@ -186,6 +186,25 @@
     },
     "coverage": 84.21,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-10T00:37:24.000Z",
+      "message": "test: se agregó casos de prueba para cálculo de precio con impuesto y descuento por rangos",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 18,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.74,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
