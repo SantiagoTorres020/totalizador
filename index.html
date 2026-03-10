@@ -9,13 +9,13 @@
 
     <form id="totalizar-form">
         <p>Cantidad de items:</p>
-        <input type="number" id="txtCantidad" />
+        <input type="number" id="txtCantidad" min="1" required />
 
         <p>Precio por item:</p>
-        <input type="number" id="txtPrecio" />
+        <input type="number" id="txtPrecio" min="1" required />
 
         <p>Codigo de estado:</p>
-        <select id="txtEstado">
+        <select id="txtEstado" required>
             <option value="CA" selected>CA</option>
             <option value="UT">UT</option>
             <option value="NV">NV</option>
@@ -35,10 +35,10 @@
         </select>
 
         <p>Peso volumétrico por unidad:</p>
-        <input type="number" id="txtPesoVolumetrico" />
+        <input type="number" id="txtPesoVolumetrico" min="1" required />
 
         <p>Tipo de cliente:</p>
-        <select id="txtTipoCliente">
+        <select id="txtTipoCliente" required>
             <option value="Normal" selected>Normal</option>
             <option value="Recurrente">Recurrente</option>
             <option value="Antiguo Recurrente">Antiguo Recurrente</option>

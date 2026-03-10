@@ -779,17 +779,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "392f9de32d037f965fbd118a94bfd766b9a86865",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:35:32.000Z",
       "message": "feat: ui integrado con las nuevas funcionalidades",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/392f9de32d037f965fbd118a94bfd766b9a86865"
     },
     "stats": {
       "total": 160,
       "additions": 126,
       "deletions": 34,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.3,
+    "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:59:45.000Z",
+      "message": "feat: Se implementaron validaciones básicas utilizando atributos HTML como required, min",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
       "date": "2026-03-10"
     },
     "coverage": 96.3,

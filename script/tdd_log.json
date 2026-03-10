@@ -670,9 +670,15 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "392f9de32d037f965fbd118a94bfd766b9a86865",
     "commitName": "feat: ui integrado con las nuevas funcionalidades",
     "commitTimestamp": 1773128133857,
     "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se implementaron validaciones básicas utilizando atributos HTML como required, min",
+    "commitTimestamp": 1773129586669,
+    "testId": 42
   }
 ]
