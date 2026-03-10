@@ -135,5 +135,8 @@ export function costoEnvioPorUnidad(pesoVolumetrico) {
     else if (pesoVolumetrico >= 11 && pesoVolumetrico <= 20) {
         return 3.5;
     }
+    else if (pesoVolumetrico >= 21 && pesoVolumetrico <= 40) {
+        return 5;
+    }
     return 0;
 }
