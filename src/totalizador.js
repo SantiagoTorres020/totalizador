@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable quotes */
 export function cantItem(cantidad){
     return cantidad;
@@ -81,6 +82,9 @@ export function impuestoAdicionalPorCategoria(categoria) {
     }
     else if (categoria == "Material de Escritorio") {
         return 0;
+    }
+    else if (categoria == "Muebles") {
+        return 3;
     }
     return 0;
 }

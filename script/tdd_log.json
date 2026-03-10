@@ -326,9 +326,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3dfb2a049c34bba46c44d0826889af0e96125ca6",
     "commitName": "fix: test de bebidas alcoholicas",
     "commitTimestamp": 1773121754272,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar impuesto adicional de categoria de muebles",
+    "commitTimestamp": 1773121833683,
+    "testId": 14
   }
 ]
