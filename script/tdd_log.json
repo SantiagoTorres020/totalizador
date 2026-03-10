@@ -338,9 +338,39 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7ae19eb147b6e9640a8442b72dbea227dd78cb69",
     "commitName": "feat: implementar impuesto adicional de categoria de electronicos",
     "commitTimestamp": 1773121930569,
     "testId": 15
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1773122031423,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1773122545403,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1773122926889,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test para calcular el precio total con impuesto adicional por categoria",
+    "commitTimestamp": 1773122977681,
+    "testId": 16
   }
 ]

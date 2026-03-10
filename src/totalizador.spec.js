@@ -111,4 +111,12 @@ describe("Totalizador", () => {
     it("Deberia devolver 4 de impuesto adicional para la categoria Electronicos", () => {
         expect(impuestoAdicionalPorCategoria("Electronicos")).toEqual(4);
     });
+
+    it("Deberia devolver 2 de impuesto adicional para la categoria Vestimenta", () => {
+        expect(impuestoAdicionalPorCategoria("Vestimenta")).toEqual(2);
+    });
+
+    it("Deberia calcular el precio total con impuesto de estado e impuesto adicional por categoria", () => {
+        expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Electronicos")).toEqual(224.5);
+    });
 });

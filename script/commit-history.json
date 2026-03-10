@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7ae19eb147b6e9640a8442b72dbea227dd78cb69",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T05:52:09.000Z",
       "message": "feat: implementar impuesto adicional de categoria de electronicos",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/7ae19eb147b6e9640a8442b72dbea227dd78cb69"
     },
     "stats": {
       "total": 11,
@@ -300,6 +300,25 @@
     },
     "coverage": 94.12,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:09:36.000Z",
+      "message": "feat: test para calcular el precio total con impuesto adicional por categoria",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 21,
+      "deletions": 5,
+      "date": "2026-03-10"
+    },
+    "coverage": 98.18,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

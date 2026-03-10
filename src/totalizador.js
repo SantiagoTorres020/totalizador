@@ -60,12 +60,17 @@ export function calcularDescuento(neto, porcentajeDescuento){
     return neto * (porcentajeDescuento / 100);
 }
 
-export function calcularPrecioConImpuestoYDescuento(estado,cantidad,precio){
-    const neto = precioNeto(cantidad,precio);
-    const impuesto = impuestoEstado(estado);
-    const montoImpuesto = calcularImpuesto(neto, impuesto);
+export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, categoria) {
+    const neto = precioNeto(cantidad, precio);
+
+    const impuestoBase = impuestoEstado(estado);
+    const impuestoCategoria = impuestoAdicionalPorCategoria(categoria);
+    const impuestoTotalPorcentaje = impuestoBase + impuestoCategoria;
+
+    const montoImpuesto = calcularImpuesto(neto, impuestoTotalPorcentaje);
+
     const porcentajeDescuento = descuento(neto);
-    const montoDescuento = calcularDescuento(neto,porcentajeDescuento);
+    const montoDescuento = calcularDescuento(neto, porcentajeDescuento);
 
     return neto + montoImpuesto - montoDescuento;
 }
@@ -88,6 +93,9 @@ export function impuestoAdicionalPorCategoria(categoria) {
     }
     else if (categoria == "Electronicos") {
         return 4;
+    }
+    else if (categoria == "Vestimenta") {
+        return 2;
     }
     return 0;
 }
