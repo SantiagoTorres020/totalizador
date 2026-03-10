@@ -75,5 +75,8 @@ export function impuestoAdicionalPorCategoria(categoria) {
     else if (categoria = "Alimentos") {
         return 0;
     }
+    else if (categoria = "Bebidas Alcoholicas") {
+        return 7;
+    }
     return 0;
 }

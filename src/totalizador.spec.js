@@ -94,4 +94,8 @@ describe("Totalizador", () => {
     it("Deberia devolver 0 de impuesto adicional para la categoria Alimentos", () => {
         expect(impuestoAdicionalPorCategoria("Alimentos")).toEqual(0);
     });
+
+    it("Deberia devolver 7 de impuesto adicional para la categoria Bebidas alcohólicas", () => {
+        expect(impuestoAdicionalCategoria("Bebidas alcohólicas")).toEqual(7);
+    });
 });
