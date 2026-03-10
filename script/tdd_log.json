@@ -650,9 +650,23 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e0de2fea97f1efd417ac4ecd93dc20edb3e9b6e3",
     "commitName": "feat: test para validar que el descuento fijo no aplica fuera de las condiciones",
     "commitTimestamp": 1773127163869,
     "testId": 39
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1773127222716,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Integrar descuento fijo por tipo de cliente en el calculo del precio total",
+    "commitTimestamp": 1773127260770,
+    "testId": 40
   }
 ]

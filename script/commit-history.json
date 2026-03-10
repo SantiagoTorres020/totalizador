@@ -741,12 +741,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "e0de2fea97f1efd417ac4ecd93dc20edb3e9b6e3",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:19:22.000Z",
       "message": "feat: test para validar que el descuento fijo no aplica fuera de las condiciones",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/e0de2fea97f1efd417ac4ecd93dc20edb3e9b6e3"
     },
     "stats": {
       "total": 10,
@@ -756,6 +756,25 @@
     },
     "coverage": 96.26,
     "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:20:59.000Z",
+      "message": "feat: Integrar descuento fijo por tipo de cliente en el calculo del precio total",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.3,
+    "test_count": 50,
     "failed_tests": 0,
     "conclusion": "success"
   }

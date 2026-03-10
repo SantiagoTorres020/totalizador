@@ -214,4 +214,10 @@ describe("Totalizador", () => {
     it("Deberia devolver 0 de descuento fijo cuando no se cumplen las condiciones", () => {
         expect(descuentoFijoPorCliente("Normal", 8000, "Electronicos")).toEqual(0);
     });
+
+    it("Deberia calcular el precio total incluyendo descuento fijo por tipo de cliente", () => {
+        expect(
+            calcularPrecioConImpuestoYDescuento("CA", 20, 200, "Alimentos", 10, "Recurrente")
+        ).toEqual(3950);
+    });
 });
