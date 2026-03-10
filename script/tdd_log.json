@@ -200,9 +200,63 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db2eb5739801c94ad5315f8e32cbe5ecfc1c7da4",
     "commitName": "refactor: separar cálculo de impuesto y precio total en funciones distintas",
     "commitTimestamp": 1773084585177,
     "testId": 8
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 6,
+    "numTotalTests": 11,
+    "timestamp": 1773101806392,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1773101867363,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1773101902343,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 2,
+    "numTotalTests": 13,
+    "timestamp": 1773102330667,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1773102411552,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1773102579558,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implementó las funciones descuento, calcularDescuento y calcularPrecioConImpuestoYDescuento",
+    "commitTimestamp": 1773102694690,
+    "testId": 9
   }
 ]

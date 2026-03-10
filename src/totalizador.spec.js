@@ -1,7 +1,11 @@
-import { calcularPrecioCantProductos, calcularPrecioConImpuesto, cantItem } from "./totalizador.js";
+import { cantItem } from "./totalizador.js";
 import { precioItem } from "./totalizador.js";
 import { precioNeto } from "./totalizador.js";
 import { impuestoEstado } from "./totalizador.js";
+import { calcularPrecioConImpuesto } from "./totalizador.js";
+import { descuento } from "./totalizador.js";
+import { calcularDescuento } from "./totalizador.js";
+import { calcularPrecioConImpuestoYDescuento } from "./totalizador.js";
 
 describe("Totalizador", () => {
     it("mostrar cantidad de items", () => {
@@ -46,10 +50,16 @@ describe("Totalizador", () => {
         expect(calcularPrecioConImpuesto(estado,5,3)).toEqual(15.9375);
     });
 
-    /*
-    it("Mostrar el precio total con el Porcentaje de descuento que corresponde a 1000" , () => {
-        let cantidad = 1000;
-        expect(calcularPrecioCantProductos(1000)).toEqual(3030);
+    it("Deberia devolver 3 cuando el neto es 2000", () => {
+        expect(descuento(2000)).toEqual(3);
     });
-    */
+
+    it("Deberia calcular 60 de descuento para un neto de 2000 con 3%", () => {
+        expect(calcularDescuento(2000, 3)).toEqual(60);
+    });
+
+    it("Deberia calcular el precio total con impuesto y descuento para un neto de 2000", () => {
+        expect(calcularPrecioConImpuestoYDescuento("UT", 1000, 2)).toEqual(2073);
+    });
+
 });

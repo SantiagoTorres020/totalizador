@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db2eb5739801c94ad5315f8e32cbe5ecfc1c7da4",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-09T19:29:44.000Z",
       "message": "refactor: separar cálculo de impuesto y precio total en funciones distintas",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/db2eb5739801c94ad5315f8e32cbe5ecfc1c7da4"
     },
     "stats": {
       "total": 39,
@@ -167,6 +167,25 @@
     },
     "coverage": 95,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-10T00:31:32.000Z",
+      "message": "feat: se implementó las funciones descuento, calcularDescuento y calcularPrecioConImpuestoYDescuento",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 46,
+      "deletions": 6,
+      "date": "2026-03-10"
+    },
+    "coverage": 84.21,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

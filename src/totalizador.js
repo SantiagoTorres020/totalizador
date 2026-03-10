@@ -37,3 +37,33 @@ export function calcularPrecioConImpuesto(estado,cantidad,precio){
 
     return neto + montoImpuesto;
 }
+
+export function descuento(neto){
+    if (neto >= 30000){
+        return 15;
+    } else if (neto >= 10000){
+        return 10;
+    } else if (neto >= 7000){
+        return 7;
+    } else if (neto >= 3000){
+        return 5;
+    } else if (neto >= 1000){
+        return 3;
+    }
+    return 0;
+}
+
+
+export function calcularDescuento(neto, porcentajeDescuento){
+    return neto * (porcentajeDescuento / 100);
+}
+
+export function calcularPrecioConImpuestoYDescuento(estado,cantidad,precio){
+    const neto = precioNeto(cantidad,precio);
+    const impuesto = impuestoEstado(estado);
+    const montoImpuesto = calcularImpuesto(neto, impuesto);
+    const porcentajeDescuento = descuento(neto);
+    const montoDescuento = calcularDescuento(neto,porcentajeDescuento);
+
+    return neto + montoImpuesto - montoDescuento;
+}
