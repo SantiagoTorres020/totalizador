@@ -620,9 +620,39 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "36d91472491d8eb5bc1f52a7b4024fcdad24d51e",
     "commitName": "feat: Agregar descuento fijo para cliente Especial en categoria Electrónicos",
     "commitTimestamp": 1773127012000,
     "testId": 38
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1773127057259,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1773127103638,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1773127130517,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test para validar que el descuento fijo no aplica fuera de las condiciones",
+    "commitTimestamp": 1773127163869,
+    "testId": 39
   }
 ]

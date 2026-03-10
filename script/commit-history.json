@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "36d91472491d8eb5bc1f52a7b4024fcdad24d51e",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:16:50.000Z",
       "message": "feat: Agregar descuento fijo para cliente Especial en categoria Electrónicos",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/36d91472491d8eb5bc1f52a7b4024fcdad24d51e"
     },
     "stats": {
       "total": 6,
@@ -739,5 +739,24 @@
     "test_count": 48,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:19:22.000Z",
+      "message": "feat: test para validar que el descuento fijo no aplica fuera de las condiciones",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.26,
+    "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

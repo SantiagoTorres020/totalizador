@@ -207,7 +207,11 @@ describe("Totalizador", () => {
         expect(descuentoFijoPorCliente("Recurrente", 4000, "Alimentos")).toEqual(100);
     });
 
-    it("Deberia devolver 200 de descuento fijo para cliente Especial con neto mayor a 7000 y categoria Electrónicos", () => {
-        expect(descuentoFijoPorCliente("Especial", 8000, "Electrónicos")).toEqual(200);
+    it("Deberia devolver 200 de descuento fijo para cliente Especial con neto mayor a 7000 y categoria Electronicos", () => {
+        expect(descuentoFijoPorCliente("Especial", 8000, "Electronicos")).toEqual(200);
+    });
+
+    it("Deberia devolver 0 de descuento fijo cuando no se cumplen las condiciones", () => {
+        expect(descuentoFijoPorCliente("Normal", 8000, "Electronicos")).toEqual(0);
     });
 });

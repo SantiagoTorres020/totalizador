@@ -184,7 +184,7 @@ export function costoEnvioFinal(tipoCliente, cantidad, pesoVolumetrico) {
 export function descuentoFijoPorCliente(tipoCliente, neto, categoria) {
     if (tipoCliente == "Recurrente" && neto > 3000 && categoria == "Alimentos") {
         return 100;
-    } else if (tipoCliente == "Especial" && neto > 7000 && categoria == "Electrónicos") {
+    } else if (tipoCliente == "Especial" && neto > 7000 && categoria == "Electronicos") {
         return 200;
     }
     return 0;
