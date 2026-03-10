@@ -13,7 +13,7 @@ form.addEventListener("submit", (event) => {
 
   const cantidad = Number(txtCantidad.value);
   const precio = Number(txtPrecio.value);
-  const estado = txtEstado.value.trim().toUpperCase();
+  const estado = txtEstado.value;
 
   const cant = cantItem(cantidad);
   const prec = precioItem(precio);
