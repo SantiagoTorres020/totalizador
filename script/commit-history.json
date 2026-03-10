@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "484a9c44337baa360827cef719d090dfe8a5d65e",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:31:39.000Z",
       "message": "feat: se implemento el descuento adicional para el resto de categorias",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/484a9c44337baa360827cef719d090dfe8a5d65e"
     },
     "stats": {
       "total": 24,
@@ -357,6 +357,25 @@
     },
     "coverage": 85.71,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:35:27.000Z",
+      "message": "feat: Integrar descuento adicional por categoria en el calculo del precio total",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
+      "date": "2026-03-10"
+    },
+    "coverage": 93.06,
+    "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -65,12 +65,15 @@ export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, ca
 
     const impuestoBase = impuestoEstado(estado);
     const impuestoCategoria = impuestoAdicionalPorCategoria(categoria);
-    const impuestoTotalPorcentaje = impuestoBase + impuestoCategoria;
+    const impuestoTotal = impuestoBase + impuestoCategoria;
 
-    const montoImpuesto = calcularImpuesto(neto, impuestoTotalPorcentaje);
+    const montoImpuesto = calcularImpuesto(neto, impuestoTotal);
 
-    const porcentajeDescuento = descuento(neto);
-    const montoDescuento = calcularDescuento(neto, porcentajeDescuento);
+    const descuentoBase = descuento(neto);
+    const descuentoCategoria = descuentoAdicionalPorCategoria(categoria);
+    const descuentoTotal = descuentoBase + descuentoCategoria;
+
+    const montoDescuento = calcularDescuento(neto, descuentoTotal);
 
     return neto + montoImpuesto - montoDescuento;
 }

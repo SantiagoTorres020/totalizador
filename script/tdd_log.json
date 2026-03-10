@@ -412,9 +412,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "484a9c44337baa360827cef719d090dfe8a5d65e",
     "commitName": "feat: se implemento el descuento adicional para el resto de categorias",
     "commitTimestamp": 1773124301000,
     "testId": 18
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1773124460855,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1773124503901,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Integrar descuento adicional por categoria en el calculo del precio total",
+    "commitTimestamp": 1773124529073,
+    "testId": 19
   }
 ]

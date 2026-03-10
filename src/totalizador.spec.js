@@ -119,7 +119,7 @@ describe("Totalizador", () => {
     });
 
     it("Deberia calcular el precio total con impuesto de estado e impuesto adicional por categoria", () => {
-        expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Electronicos")).toEqual(224.5);
+        expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Electronicos")).toEqual(222.5);
     });
 
     it("Deberia devolver 2 de descuento adicional para la categoria Alimentos", () => {
@@ -128,5 +128,9 @@ describe("Totalizador", () => {
 
     it("Deberia devolver 1.5 de descuento adicional para la categoria Material de Escritorio", () => {
         expect(descuentoAdicionalPorCategoria("Material de Escritorio")).toEqual(1.5);
+    });
+
+    it("Deberia calcular el precio total considerando el descuento e impuesto adicional por categoria", () => {
+        expect(calcularPrecioConImpuestoYDescuento("CA", 10, 200, "Alimentos")).toEqual(2065);
     });
 });
