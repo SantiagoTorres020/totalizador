@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0b1debdd927cf201201f94f7e94cca8dd6d60cb5",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:43:43.000Z",
       "message": "feat: se implemento costo de envio or unidad para pesos volumetrico de 21 a 40",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/0b1debdd927cf201201f94f7e94cca8dd6d60cb5"
     },
     "stats": {
       "total": 7,
@@ -433,6 +433,25 @@
     },
     "coverage": 92.41,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:44:29.000Z",
+      "message": "feat: se implemento costo de envio or unidad para pesos volumetrico de 41 y 80",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 92.59,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }
