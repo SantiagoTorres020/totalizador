@@ -127,3 +127,10 @@ export function descuentoAdicionalPorCategoria(categoria) {
     }
     return 0;
 }
+
+export function costoEnvioPorUnidad(pesoVolumetrico) {
+    if (pesoVolumetrico >= 0 && pesoVolumetrico <= 10) {
+        return 0;
+    }
+    return 0;
+}

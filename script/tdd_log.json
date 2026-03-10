@@ -434,9 +434,23 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c4519fbf90f3eeb35b77cbd85bd2fd6f64c0c859",
     "commitName": "feat: Integrar descuento adicional por categoria en el calculo del precio total",
     "commitTimestamp": 1773124529073,
     "testId": 19
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1773124797931,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implemento costo de envio or unidad para pesos volumetrico de 0 a 10",
+    "commitTimestamp": 1773124853743,
+    "testId": 20
   }
 ]

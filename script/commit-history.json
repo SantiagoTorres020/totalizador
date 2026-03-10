@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c4519fbf90f3eeb35b77cbd85bd2fd6f64c0c859",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:35:27.000Z",
       "message": "feat: Integrar descuento adicional por categoria en el calculo del precio total",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/c4519fbf90f3eeb35b77cbd85bd2fd6f64c0c859"
     },
     "stats": {
       "total": 17,
@@ -376,6 +376,25 @@
     },
     "coverage": 93.06,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:40:52.000Z",
+      "message": "feat: se implemento costo de envio or unidad para pesos volumetrico de 0 a 10",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 92,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

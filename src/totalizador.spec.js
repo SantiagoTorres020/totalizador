@@ -9,6 +9,7 @@ import { calcularDescuento } from "./totalizador.js";
 import { calcularPrecioConImpuestoYDescuento } from "./totalizador.js";
 import { impuestoAdicionalPorCategoria } from "./totalizador.js";
 import { descuentoAdicionalPorCategoria } from "./totalizador.js";
+import { costoEnvioPorUnidad } from "./totalizador.js";
 
 
 describe("Totalizador", () => {
@@ -132,5 +133,9 @@ describe("Totalizador", () => {
 
     it("Deberia calcular el precio total considerando el descuento e impuesto adicional por categoria", () => {
         expect(calcularPrecioConImpuestoYDescuento("CA", 10, 200, "Alimentos")).toEqual(2065);
+    });
+
+    it("Deberia devolver 0 de costo de envio por unidad cuando el peso volumetrico esta entre 0 y 10", () => {
+        expect(costoEnvioPorUnidad(10)).toEqual(0);
     });
 });
