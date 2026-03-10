@@ -560,9 +560,15 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd99d42f239874d73f784a3cb6f4dc34dda6f45d",
     "commitName": "feat: implementar descuento de envio para el cliente antiguo recurrente ademas de una pequena factorizacion en la funcion",
     "commitTimestamp": 1773126128708,
     "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de envio para el cliente especial",
+    "commitTimestamp": 1773126166794,
+    "testId": 33
   }
 ]

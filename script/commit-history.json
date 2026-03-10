@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd99d42f239874d73f784a3cb6f4dc34dda6f45d",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:02:06.000Z",
       "message": "feat: implementar descuento de envio para el cliente antiguo recurrente ademas de una pequena factorizacion en la funcion",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/bd99d42f239874d73f784a3cb6f4dc34dda6f45d"
     },
     "stats": {
       "total": 11,
@@ -623,6 +623,25 @@
     },
     "coverage": 95.79,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:02:45.000Z",
+      "message": "feat: implementar descuento de envio para el cliente especial",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.88,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }
