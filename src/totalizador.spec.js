@@ -12,6 +12,7 @@ import { descuentoAdicionalPorCategoria } from "./totalizador.js";
 import { costoEnvioPorUnidad } from "./totalizador.js";
 import { costoEnvioTotal } from "./totalizador.js";
 import { descuentoEnvioCliente } from "./totalizador.js";
+import { calcularDescuentoEnvio } from "./totalizador.js";
 
 
 describe("Totalizador", () => {
@@ -184,5 +185,9 @@ describe("Totalizador", () => {
     });
     it("Deberia devolver 1.5 de descuento en envio para cliente Especial", () => {
         expect(descuentoEnvioCliente("Especial")).toEqual(1.5);
+    });
+
+    it("Deberia calcular 1 de descuento para un costo de envio de 100 con 1%", () => {
+        expect(calcularDescuentoEnvio(100, 1)).toEqual(1);
     });
 });

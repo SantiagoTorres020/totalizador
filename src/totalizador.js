@@ -168,3 +168,7 @@ export function descuentoEnvioCliente(tipoCliente) {
     }
     return 0;
 }
+
+export function calcularDescuentoEnvio(costoEnvio, porcentajeDescuentoEnvio) {
+    return costoEnvio * (porcentajeDescuentoEnvio / 100);
+}

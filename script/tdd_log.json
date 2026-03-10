@@ -566,9 +566,23 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4cc64433eb805f0ed2299f0ed9a5275fae2628af",
     "commitName": "feat: implementar descuento de envio para el cliente especial",
     "commitTimestamp": 1773126166794,
     "testId": 33
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1773126231087,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Implementar calculo de descuento sobre el costo de envio",
+    "commitTimestamp": 1773126250857,
+    "testId": 34
   }
 ]
