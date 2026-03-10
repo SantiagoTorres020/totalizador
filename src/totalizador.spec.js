@@ -6,6 +6,7 @@ import { calcularPrecioConImpuesto } from "./totalizador.js";
 import { descuento } from "./totalizador.js";
 import { calcularDescuento } from "./totalizador.js";
 import { calcularPrecioConImpuestoYDescuento } from "./totalizador.js";
+import { impuestoAdicionalPorCategoria } from "./totalizador.js";
 
 describe("Totalizador", () => {
     it("mostrar cantidad de items", () => {
@@ -84,6 +85,10 @@ describe("Totalizador", () => {
 
     it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX", () => {
         expect(calcularPrecioConImpuestoYDescuento("TX", 4568, 1)).toEqual(4625.1);
+    });
+
+    it("Deberia devolver 0 de impuesto adicional para la categoria Varios", () => {
+        expect(impuestoAdicionalPorCategoria("Varios")).toEqual(0);
     });
 
 });

@@ -67,3 +67,10 @@ export function calcularPrecioConImpuestoYDescuento(estado,cantidad,precio){
 
     return neto + montoImpuesto - montoDescuento;
 }
+
+export function impuestoAdicionalPorCategoria(categoria) {
+    if (categoria == "Varios") {
+        return 0;
+    }
+    return 0;
+}
