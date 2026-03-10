@@ -159,11 +159,10 @@ export function costoEnvioTotal(cantidad, pesoVolumetrico) {
 }
 
 export function descuentoEnvioCliente(tipoCliente) {
-    if (tipoCliente == "Normal") {
-        return 0;
-    }
-    else if (tipoCliente == "Recurrente") {
+    if (tipoCliente == "Recurrente") {
         return 0.5;
+    } else if (tipoCliente == "Antiguo Recurrente") {
+        return 1;
     }
     return 0;
 }
