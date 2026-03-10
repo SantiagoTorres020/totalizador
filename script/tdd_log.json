@@ -580,9 +580,15 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "84229b088450ca521bbc4ac15b92061da0726b9a",
     "commitName": "feat: Implementar calculo de descuento sobre el costo de envio",
     "commitTimestamp": 1773126250857,
     "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar costo final de envio con descuento por tipo de cliente",
+    "commitTimestamp": 1773126457239,
+    "testId": 35
   }
 ]

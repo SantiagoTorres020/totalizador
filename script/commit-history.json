@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "84229b088450ca521bbc4ac15b92061da0726b9a",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:04:09.000Z",
       "message": "feat: Implementar calculo de descuento sobre el costo de envio",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/84229b088450ca521bbc4ac15b92061da0726b9a"
     },
     "stats": {
       "total": 9,
@@ -661,6 +661,25 @@
     },
     "coverage": 95.92,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:07:35.000Z",
+      "message": "feat: implementar costo final de envio con descuento por tipo de cliente",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.08,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

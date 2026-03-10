@@ -172,3 +172,11 @@ export function descuentoEnvioCliente(tipoCliente) {
 export function calcularDescuentoEnvio(costoEnvio, porcentajeDescuentoEnvio) {
     return costoEnvio * (porcentajeDescuentoEnvio / 100);
 }
+
+export function costoEnvioFinal(tipoCliente, cantidad, pesoVolumetrico) {
+    const envioTotal = costoEnvioTotal(cantidad, pesoVolumetrico);
+    const porcentajeDescuentoEnvio = descuentoEnvioCliente(tipoCliente);
+    const montoDescuentoEnvio = calcularDescuentoEnvio(envioTotal, porcentajeDescuentoEnvio);
+
+    return envioTotal - montoDescuentoEnvio;
+}
