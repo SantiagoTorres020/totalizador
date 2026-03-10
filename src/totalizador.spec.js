@@ -150,4 +150,7 @@ describe("Totalizador", () => {
     it("Deberia devolver 6 de costo de envio por unidad cuando el peso volumetrico esta entre 41 y 80", () => {
         expect(costoEnvioPorUnidad(80)).toEqual(6);
     });
+    it("Deberia devolver 6.5 de costo de envio por unidad cuando el peso volumetrico esta entre 81 y 100", () => {
+        expect(costoEnvioPorUnidad(100)).toEqual(6.5);
+    });
 });
