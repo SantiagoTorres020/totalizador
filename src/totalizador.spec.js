@@ -78,4 +78,12 @@ describe("Totalizador", () => {
         expect(calcularPrecioConImpuestoYDescuento("UT", 30000, 1)).toEqual(27495); 
     });
 
+    it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX", () => {
+        expect(calcularPrecioConImpuestoYDescuento("UT", 30000, 1)).toEqual(27495); 
+    });
+
+    it("Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX", () => {
+        expect(calcularPrecioConImpuestoYDescuento("TX", 4568, 1)).toEqual(4625.1);
+    });
+
 });

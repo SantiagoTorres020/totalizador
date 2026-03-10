@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2f4642f1e8d894c0ae7549ee0f0ba12c5e133c6d",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-10T00:37:24.000Z",
       "message": "test: se agregó casos de prueba para cálculo de precio con impuesto y descuento por rangos",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/2f4642f1e8d894c0ae7549ee0f0ba12c5e133c6d"
     },
     "stats": {
       "total": 20,
@@ -205,6 +205,25 @@
     },
     "coverage": 94.74,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-10T00:42:49.000Z",
+      "message": "test: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.74,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

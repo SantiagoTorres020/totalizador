@@ -260,9 +260,15 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2f4642f1e8d894c0ae7549ee0f0ba12c5e133c6d",
     "commitName": "test: se agregó casos de prueba para cálculo de precio con impuesto y descuento por rangos",
     "commitTimestamp": 1773103047068,
     "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
+    "commitTimestamp": 1773103371371,
+    "testId": 11
   }
 ]
