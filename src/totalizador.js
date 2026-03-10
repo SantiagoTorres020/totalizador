@@ -60,22 +60,22 @@ export function calcularDescuento(neto, porcentajeDescuento){
     return neto * (porcentajeDescuento / 100);
 }
 
-export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, categoria) {
+export function calcularPrecioConImpuestoYDescuento(estado, cantidad, precio, categoria, pesoVolumetrico) {
     const neto = precioNeto(cantidad, precio);
 
     const impuestoBase = impuestoEstado(estado);
     const impuestoCategoria = impuestoAdicionalPorCategoria(categoria);
     const impuestoTotal = impuestoBase + impuestoCategoria;
-
     const montoImpuesto = calcularImpuesto(neto, impuestoTotal);
 
     const descuentoBase = descuento(neto);
     const descuentoCategoria = descuentoAdicionalPorCategoria(categoria);
     const descuentoTotal = descuentoBase + descuentoCategoria;
-
     const montoDescuento = calcularDescuento(neto, descuentoTotal);
 
-    return neto + montoImpuesto - montoDescuento;
+    const envioTotal = costoEnvioTotal(cantidad, pesoVolumetrico);
+
+    return neto + montoImpuesto - montoDescuento + envioTotal;
 }
 
 export function impuestoAdicionalPorCategoria(categoria) {

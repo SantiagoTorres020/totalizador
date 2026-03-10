@@ -522,9 +522,23 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c7394b91da9b337429256d1547d9a6faa11c57a",
     "commitName": "feat: se implemento calculo del costo total de envio segun cantidad y peso volumetrico",
     "commitTimestamp": 1773125591689,
     "testId": 27
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1773125658307,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implemento calculo del costo total de envio segun cantidad y peso volumetrico",
+    "commitTimestamp": 1773125666613,
+    "testId": 28
   }
 ]

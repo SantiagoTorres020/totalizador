@@ -165,4 +165,8 @@ describe("Totalizador", () => {
     it("Deberia calcular el costo total de envio multiplicando la cantidad por el costo de envio por unidad", () => {
         expect(costoEnvioTotal(3, 15)).toEqual(10.5);
     });
+
+    it("Deberia calcular el precio total incluyendo costo de envio", () => {
+        expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Varios", 15)).toEqual(223.5);
+    });
 });
