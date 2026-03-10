@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8c9e8de38edcfb1a47334e345291ef3877baf5b8",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:30:10.000Z",
       "message": "feat: se implemento el descuento adicional para la categoria alimentos",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/8c9e8de38edcfb1a47334e345291ef3877baf5b8"
     },
     "stats": {
       "total": 13,
@@ -338,6 +338,25 @@
     },
     "coverage": 96.55,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:31:39.000Z",
+      "message": "feat: se implemento el descuento adicional para el resto de categorias",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 23,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 85.71,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

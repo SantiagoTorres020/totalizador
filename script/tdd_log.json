@@ -398,9 +398,23 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8c9e8de38edcfb1a47334e345291ef3877baf5b8",
     "commitName": "feat: se implemento el descuento adicional para la categoria alimentos",
     "commitTimestamp": 1773124212143,
     "testId": 17
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1773124284050,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implemento el descuento adicional para el resto de categorias",
+    "commitTimestamp": 1773124301000,
+    "testId": 18
   }
 ]

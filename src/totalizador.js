@@ -101,8 +101,26 @@ export function impuestoAdicionalPorCategoria(categoria) {
 }
 
 export function descuentoAdicionalPorCategoria(categoria) {
-    if (categoria == "Alimentos") {
+    if (categoria == "Varios") {
+        return 0;
+    }
+    else if (categoria == "Alimentos") {
         return 2;
+    }
+    else if (categoria == "Bebidas alcoholicas") {
+        return 0;
+    }
+    else if (categoria == "Material de Escritorio") {
+        return 1.5;
+    }
+    else if (categoria == "Muebles") {
+        return 0;
+    }
+    else if (categoria == "Electronicos") {
+        return 1;
+    }
+    else if (categoria == "Vestimenta") {
+        return 0;
     }
     return 0;
 }

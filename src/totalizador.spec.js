@@ -125,4 +125,8 @@ describe("Totalizador", () => {
     it("Deberia devolver 2 de descuento adicional para la categoria Alimentos", () => {
         expect(descuentoAdicionalPorCategoria("Alimentos")).toEqual(2);
     });
+
+    it("Deberia devolver 1.5 de descuento adicional para la categoria Material de Escritorio", () => {
+        expect(descuentoAdicionalPorCategoria("Material de Escritorio")).toEqual(1.5);
+    });
 });
