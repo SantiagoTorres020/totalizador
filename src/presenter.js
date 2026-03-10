@@ -68,7 +68,7 @@ form.addEventListener("submit", (event) => {
         "<p>Precio por item: $" + precio + "</p>" +
         "<p>Codigo de estado: " + estado + "</p>" +
         "<p>Categoria de producto: " + categoria + "</p>" +
-        "<p>Peso volumétrico por unidad: " + pesoVolumetrico + "</p>" +
+        "<p>Peso volumetrico por unidad: " + pesoVolumetrico + "</p>" +
         "<p>Tipo de cliente: " + tipoCliente + "</p>" +
 
         "<p>Precio neto (" + cantidad + "*$" + precio + "): $" + neto + "</p>" +

@@ -676,9 +676,15 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "541629e082bcffb4da16b4f971c00a5dbbe8e4ba",
     "commitName": "feat: Se implementaron validaciones básicas utilizando atributos HTML como required, min",
     "commitTimestamp": 1773129586669,
     "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: mejora de los mensajes del resultado",
+    "commitTimestamp": 1773130440317,
+    "testId": 43
   }
 ]

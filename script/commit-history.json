@@ -798,17 +798,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "541629e082bcffb4da16b4f971c00a5dbbe8e4ba",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:59:45.000Z",
       "message": "feat: Se implementaron validaciones básicas utilizando atributos HTML como required, min",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/541629e082bcffb4da16b4f971c00a5dbbe8e4ba"
     },
     "stats": {
       "total": 10,
       "additions": 5,
       "deletions": 5,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.3,
+    "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T08:13:58.000Z",
+      "message": "fix: mejora de los mensajes del resultado",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-10"
     },
     "coverage": 96.3,
