@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "863c286d32e76c64e25d928515eeac06a24e0c43",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T06:55:28.000Z",
       "message": "fix: el anterior commit se repitio en realidad era la implementacion de calcular el precio total incluyendo costo de envio",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/863c286d32e76c64e25d928515eeac06a24e0c43"
     },
     "stats": {
       "total": 2,
@@ -566,6 +566,25 @@
     },
     "coverage": 95.56,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T06:59:45.000Z",
+      "message": "feat: implementar descuento de envio para el cliente normal",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.62,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

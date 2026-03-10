@@ -542,9 +542,15 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "863c286d32e76c64e25d928515eeac06a24e0c43",
     "commitName": "fix: el anterior commit se repitio en realidad era la implementacion de calcular el precio total incluyendo costo de envio",
     "commitTimestamp": 1773125730544,
     "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de envio para el cliente normal",
+    "commitTimestamp": 1773125986872,
+    "testId": 30
   }
 ]

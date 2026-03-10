@@ -157,3 +157,10 @@ export function costoEnvioTotal(cantidad, pesoVolumetrico) {
     const costoUnidad = costoEnvioPorUnidad(pesoVolumetrico);
     return cantidad * costoUnidad;
 }
+
+export function descuentoEnvioCliente(tipoCliente) {
+    if (tipoCliente == "Normal") {
+        return 0;
+    }
+    return 0;
+}

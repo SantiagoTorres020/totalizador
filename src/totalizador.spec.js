@@ -11,6 +11,7 @@ import { impuestoAdicionalPorCategoria } from "./totalizador.js";
 import { descuentoAdicionalPorCategoria } from "./totalizador.js";
 import { costoEnvioPorUnidad } from "./totalizador.js";
 import { costoEnvioTotal } from "./totalizador.js";
+import { descuentoEnvioCliente } from "./totalizador.js";
 
 
 describe("Totalizador", () => {
@@ -170,5 +171,7 @@ describe("Totalizador", () => {
         expect(calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Varios", 15)).toEqual(223.5);
     });
 
-
+    it("Deberia devolver 0 de descuento en envio para cliente Normal", () => {
+        expect(descuentoEnvioCliente("Normal")).toEqual(0);
+    });
 });
