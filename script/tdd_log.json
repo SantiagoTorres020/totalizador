@@ -508,9 +508,23 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32cc9c2cfb1fbcd79c6d0d742deb577a2692d5d8",
     "commitName": "feat: se implemento costo de envio or unidad para pesos volumetrico de 201 o mas",
     "commitTimestamp": 1773125265260,
     "testId": 26
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1773125560308,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se implemento calculo del costo total de envio segun cantidad y peso volumetrico",
+    "commitTimestamp": 1773125591689,
+    "testId": 27
   }
 ]

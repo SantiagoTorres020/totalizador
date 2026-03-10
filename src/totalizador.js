@@ -152,3 +152,8 @@ export function costoEnvioPorUnidad(pesoVolumetrico) {
     }
     return 0;
 }
+
+export function costoEnvioTotal(cantidad, pesoVolumetrico) {
+    const costoUnidad = costoEnvioPorUnidad(pesoVolumetrico);
+    return cantidad * costoUnidad;
+}

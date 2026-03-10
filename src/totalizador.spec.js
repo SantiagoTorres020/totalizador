@@ -10,6 +10,7 @@ import { calcularPrecioConImpuestoYDescuento } from "./totalizador.js";
 import { impuestoAdicionalPorCategoria } from "./totalizador.js";
 import { descuentoAdicionalPorCategoria } from "./totalizador.js";
 import { costoEnvioPorUnidad } from "./totalizador.js";
+import { costoEnvioTotal } from "./totalizador.js";
 
 
 describe("Totalizador", () => {
@@ -159,5 +160,9 @@ describe("Totalizador", () => {
 
     it("Deberia devolver 9 de costo de envio por unidad cuando el peso volumetrico es mayor a 201", () => {
         expect(costoEnvioPorUnidad(300)).toEqual(9);
+    });
+
+    it("Deberia calcular el costo total de envio multiplicando la cantidad por el costo de envio por unidad", () => {
+        expect(costoEnvioTotal(3, 15)).toEqual(10.5);
     });
 });
