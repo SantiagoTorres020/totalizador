@@ -180,3 +180,10 @@ export function costoEnvioFinal(tipoCliente, cantidad, pesoVolumetrico) {
 
     return envioTotal - montoDescuentoEnvio;
 }
+
+export function descuentoFijoPorCliente(tipoCliente, neto, categoria) {
+    if (tipoCliente == "Recurrente" && neto > 3000 && categoria == "Alimentos") {
+        return 100;
+    }
+    return 0;
+}

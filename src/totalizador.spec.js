@@ -14,6 +14,7 @@ import { costoEnvioTotal } from "./totalizador.js";
 import { descuentoEnvioCliente } from "./totalizador.js";
 import { calcularDescuentoEnvio } from "./totalizador.js";
 import { costoEnvioFinal } from "./totalizador.js";
+import { descuentoFijoPorCliente } from "./totalizador.js";
 
 
 describe("Totalizador", () => {
@@ -200,5 +201,9 @@ describe("Totalizador", () => {
         expect(
             calcularPrecioConImpuestoYDescuento("CA", 2, 100, "Varios", 15, "Especial")
         ).toEqual(223.395);
+    });
+
+    it("Deberia devolver 100 de descuento fijo para cliente Recurrente con neto mayor a 3000 y categoria Alimentos", () => {
+        expect(descuentoFijoPorCliente("Recurrente", 4000, "Alimentos")).toEqual(100);
     });
 });

@@ -684,12 +684,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7b9d5282280bc209ec8ee4adf342ccd47adc710b",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T07:11:46.000Z",
       "message": "feat: se implemento el calcular el precio total incluyendo envio y descuento por tipo de cliente",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/7b9d5282280bc209ec8ee4adf342ccd47adc710b"
     },
     "stats": {
       "total": 12,
@@ -699,6 +699,25 @@
     },
     "coverage": 96.08,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T07:16:07.000Z",
+      "message": "feat: Agregar descuento fijo para cliente Recurrente en categoria Alimentos",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.24,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

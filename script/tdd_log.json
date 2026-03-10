@@ -600,9 +600,23 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7b9d5282280bc209ec8ee4adf342ccd47adc710b",
     "commitName": "feat: se implemento el calcular el precio total incluyendo envio y descuento por tipo de cliente",
     "commitTimestamp": 1773126708249,
     "testId": 36
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1773126932453,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar descuento fijo para cliente Recurrente en categoria Alimentos",
+    "commitTimestamp": 1773126969139,
+    "testId": 37
   }
 ]
