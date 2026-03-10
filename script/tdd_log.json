@@ -332,9 +332,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "77cc7e2f75727ca2276e6b238c18b91e690d750d",
     "commitName": "feat: implementar impuesto adicional de categoria de muebles",
     "commitTimestamp": 1773121833683,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar impuesto adicional de categoria de electronicos",
+    "commitTimestamp": 1773121930569,
+    "testId": 15
   }
 ]

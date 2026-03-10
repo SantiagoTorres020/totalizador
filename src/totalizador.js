@@ -86,5 +86,8 @@ export function impuestoAdicionalPorCategoria(categoria) {
     else if (categoria == "Muebles") {
         return 3;
     }
+    else if (categoria == "Electronicos") {
+        return 4;
+    }
     return 0;
 }

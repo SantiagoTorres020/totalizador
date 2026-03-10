@@ -100,11 +100,15 @@ describe("Totalizador", () => {
         expect(impuestoAdicionalPorCategoria("Bebidas alcoholicas")).toEqual(7);
     });
 
-    it("Deberia devolver 7 de impuesto adicional para la categoria Material de Escritorio", () => {
+    it("Deberia devolver 0 de impuesto adicional para la categoria Material de Escritorio", () => {
         expect(impuestoAdicionalPorCategoria("Material de Escritorio")).toEqual(0);
     });
 
-    it("Deberia devolver 7 de impuesto adicional para la categoria Muebles", () => {
+    it("Deberia devolver 3 de impuesto adicional para la categoria Muebles", () => {
         expect(impuestoAdicionalPorCategoria("Muebles")).toEqual(3);
+    });
+
+    it("Deberia devolver 4 de impuesto adicional para la categoria Electronicos", () => {
+        expect(impuestoAdicionalPorCategoria("Electronicos")).toEqual(4);
     });
 });

@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "77cc7e2f75727ca2276e6b238c18b91e690d750d",
     "author": "Adrián Mercado",
     "commit": {
       "date": "2026-03-10T05:50:32.000Z",
       "message": "feat: implementar impuesto adicional de categoria de muebles",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/77cc7e2f75727ca2276e6b238c18b91e690d750d"
     },
     "stats": {
       "total": 8,
@@ -281,6 +281,25 @@
     },
     "coverage": 93.88,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T05:52:09.000Z",
+      "message": "feat: implementar impuesto adicional de categoria de electronicos",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.12,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
