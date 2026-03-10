@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "20befc213baaa18e46991d34d24761d9fe525b5f",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-10T00:48:30.000Z",
       "message": "feat: mostrar símbolo de dólar en los valores monetarios del totalizador",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/20befc213baaa18e46991d34d24761d9fe525b5f"
     },
     "stats": {
       "total": 11,
@@ -243,6 +243,25 @@
     },
     "coverage": 94.74,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrián Mercado",
+    "commit": {
+      "date": "2026-03-10T05:49:12.000Z",
+      "message": "fix: test de bebidas alcoholicas",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 13,
+      "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 93.62,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

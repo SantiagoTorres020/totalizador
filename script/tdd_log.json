@@ -272,9 +272,63 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "20befc213baaa18e46991d34d24761d9fe525b5f",
     "commitName": "feat: mostrar símbolo de dólar en los valores monetarios del totalizador",
     "commitTimestamp": 1773103712451,
     "testId": 12
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 2,
+    "numTotalTests": 23,
+    "timestamp": 1773121496972,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 2,
+    "numTotalTests": 23,
+    "timestamp": 1773121537663,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1773121563137,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1773121621196,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1773121653471,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1773121727982,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: test de bebidas alcoholicas",
+    "commitTimestamp": 1773121754272,
+    "testId": 13
   }
 ]

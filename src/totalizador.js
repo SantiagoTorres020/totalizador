@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 export function cantItem(cantidad){
     return cantidad;
 }
@@ -72,11 +73,14 @@ export function impuestoAdicionalPorCategoria(categoria) {
     if (categoria == "Varios") {
         return 0;
     }
-    else if (categoria = "Alimentos") {
+    else if (categoria == "Alimentos") {
         return 0;
     }
-    else if (categoria = "Bebidas Alcoholicas") {
+    else if (categoria == "Bebidas alcoholicas") {
         return 7;
+    }
+    else if (categoria == "Material de Escritorio") {
+        return 0;
     }
     return 0;
 }

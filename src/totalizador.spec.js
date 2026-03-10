@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import { cantItem } from "./totalizador.js";
 import { precioItem } from "./totalizador.js";
 import { precioNeto } from "./totalizador.js";
@@ -95,7 +96,11 @@ describe("Totalizador", () => {
         expect(impuestoAdicionalPorCategoria("Alimentos")).toEqual(0);
     });
 
-    it("Deberia devolver 7 de impuesto adicional para la categoria Bebidas alcohólicas", () => {
-        expect(impuestoAdicionalCategoria("Bebidas alcohólicas")).toEqual(7);
+    it("Deberia devolver 7 de impuesto adicional para la categoria Bebidas alcoholicas", () => {
+        expect(impuestoAdicionalPorCategoria("Bebidas alcoholicas")).toEqual(7);
+    });
+
+    it("Deberia devolver 7 de impuesto adicional para la categoria Material de Escritorio", () => {
+        expect(impuestoAdicionalPorCategoria("Material de Escritorio")).toEqual(0);
     });
 });
