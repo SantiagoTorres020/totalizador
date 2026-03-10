@@ -266,9 +266,15 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8b06bc285f2310a0e3188f19e059818033f65d0c",
     "commitName": "test: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
     "commitTimestamp": 1773103371371,
     "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar símbolo de dólar en los valores monetarios del totalizador",
+    "commitTimestamp": 1773103712451,
+    "testId": 12
   }
 ]

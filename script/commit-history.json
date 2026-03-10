@@ -209,17 +209,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8b06bc285f2310a0e3188f19e059818033f65d0c",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-03-10T00:42:49.000Z",
       "message": "test: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX",
-      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/8b06bc285f2310a0e3188f19e059818033f65d0c"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 94.74,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-03-10T00:48:30.000Z",
+      "message": "feat: mostrar símbolo de dólar en los valores monetarios del totalizador",
+      "url": "https://github.com/SantiagoTorres020/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 6,
+      "deletions": 5,
       "date": "2026-03-10"
     },
     "coverage": 94.74,
